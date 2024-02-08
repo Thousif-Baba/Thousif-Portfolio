@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Inter:wght@200;300&family=Raleway:wght@100&display=swap');
+
+.contacts-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:  center;
+    background-color: #f0f7f7;
+}
+
+.footer-image {
+    width: 90%;
+}
+
+.icons-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.copyrights-para {
+    font-family: "Nunito",sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #828282;
+}

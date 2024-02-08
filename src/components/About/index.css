@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Inter:wght@200;300&family=Raleway:wght@100&display=swap');
+
+.home-page {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-bottom: 30px;
+    background-color: #f0f7f7;
+}
+
+.header {
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading {
+    font-family: "Comfortaa", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+}
+
+.options-list {
+    width: 292px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-item {
+    font-family: "Raleway", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-decoration: none;
+    color: #25282B;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.about-container {
+    width: 90%;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.details-container {
+    width: 500px;
+}
+
+.designation-heading {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #fdc435;
+}
+
+.name-heading {
+    font-family: "Playfair Display", sans-serif;
+    font-weight: 700;
+    font-size: 60px;
+    color: #333333;
+    margin-top: 0%;
+}
+
+.description-para {
+    font-family: "Nunito", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: #828282;
+}
+
+.button-container {
+    display: flex;
+
+}
+
+.projects-button {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    background-color: #fdc435;
+    border: none;
+    border-radius: 5px;
+    height: 28px;
+    width: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.linkedin-button {
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    background-color: transparent;
+    border: #25282B, 5px;
+    border-radius: 5px;
+    height: 28px;
+    width: 80px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.profile-img {
+    height: 400px;
+    width: 450px;
+    margin-top: 0%;
+    border-radius: 3px;
+}
+
+
+.add-project-heading {
+    font-family: "Playfair Display", sans-serif;
+    color: #25282B;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.horizontal-line {
+    width: 60px;
+    border: 1px solid #fdc435;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.label-name {
+    font-family: "Nunito", sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    color: #25282B;
+    margin-bottom: 2px;
+}
+
+.input-element {
+    border: none;
+    height: 30px;
+    columns: #ffffff;
+    margin-bottom: 15px;
+
+}
+
+.textarea-element {
+    border: none;
+    height: 50px;
+    columns: #ffffff;
+    margin-bottom: 15px;
+}
+
+
+.add-button-container {
+    text-align: right;
+    width: 100%;
+}
+
+.add-button {
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    background-color: #fdc435;
+    border: none;
+    border-radius: 5px;
+    height: 28px;
+    width: 50px;
+    cursor: pointer;
+}
+
+.footer-image {
+    width: 90%;
+}
