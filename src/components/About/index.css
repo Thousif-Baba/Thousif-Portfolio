@@ -196,8 +196,18 @@
         flex-direction: column;
     }
 
+    .name-heading {
+        font-size: 30px;
+    }
+
+    .description-para {
+        font-size: 12px;
+    }
+
     .profile-img {
         margin-top: 20px;
+        height: 200px;
+        width: 250px;
     }
 
     .footer-image {
