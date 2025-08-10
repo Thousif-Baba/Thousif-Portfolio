@@ -190,3 +190,17 @@
 .footer-image {
     width: 90%;
 }
+
+@media (max-width:768px) {
+    .content-container {
+        flex-direction: column;
+    }
+
+    .profile-img {
+        margin-top: 20px;
+    }
+
+    .footer-image {
+        margin-top: 20px;
+    }
+}
